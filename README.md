@@ -1,14 +1,12 @@
-# Initial page
+---
+description: f df
+---
 
- 法度奉公守法的Becoming a super hero is a fairly straight forward process:
+# sd sa的萨芬阿迪舒服阿舒服的
 
 ```
-$ give me super-powers
+奥迪 Super-powers are granted randomly so please submit an issue if you're not happy with yours.
 ```
-
-{% hint style="info" %}
- Super-powers are granted randomly so please submit an issue if you're not happy with yours.
-{% endhint %}
 
 Once you're strong enough, save the world:
 
