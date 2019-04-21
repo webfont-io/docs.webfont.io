@@ -1,0 +1,57 @@
+Site: "webfont 文档中心"
+Output: "docs/cn"
+CDN: "https://docs.webfont.io/assets"
+Logo: "/assets/img/webfont.png"
+HtmlBase: "/cn" #example /cn
+PageOnly: true
+footerHTML: webfont.io tech
+
+Language:
+  - 简体中文: /cn/index.html
+  - English: /index.html
+Plugins:
+  #- Algolia:
+  #    apiKey: "ALGOLIA_TOKEN"
+  #    index: "INDEX_NAME"
+  #- Google Analytics: "UA-XXXXX-Y"
+  #- Mixpanel: "MIXPANEL_TOKEN"
+  - Footer Widget:
+      Label: "联系客服"
+      Link: "https://webfont.io/"
+Documents:
+  - "简介":
+      - "快速入门":
+        Link: "https://github.com/webfont-io/webfont/blob/master/readme/cn/Get-Started/quick-start-guide.md"
+        Slug: quick-start-guide
+  - "独立部署":
+        - "安装指南":
+          Link: "https://github.com/webfont-io/webfont/blob/master/readme/cn/selfhost/guide.md"
+          Slug: self-host-guide
+        - "docker":
+          Link: "https://github.com/webfont-io/webfont/blob/master/readme/cn/selfhost/docker.md"
+          Slug: self-host-docker
+        - "docker-compose":
+          Link: "https://github.com/webfont-io/webfont/blob/master/readme/cn/selfhost/docker-compose.md"
+          Slug: self-host-docker-compose
+        - "ubuntu":
+          Link: "https://github.com/webfont-io/webfont/blob/master/readme/cn/selfhost/ubuntu.md"
+          Slug: self-host-ubuntu
+        - "Mac os":
+          Link: "https://github.com/webfont-io/webfont/blob/master/readme/cn/selfhost/macos.md"
+          Slug: self-host-macos
+        - "Windows":
+          Link: "https://github.com/webfont-io/webfont/blob/master/readme/cn/selfhost/windows.md"
+          Slug: self-host-windows
+  - "SDK":
+        - "SDK指南":
+          Link: "https://github.com/webfont-io/webfont/blob/master/readme/cn/sdk/guide.md"
+          Slug: sdk-guide
+        - "golang":
+          Link: "https://github.com/webfont-io/webfont/blob/master/readme/cn/sdk/golang.md"
+          Slug: sdk-golang
+        - "nodejs":
+          Link: "https://github.com/webfont-io/webfont/blob/master/readme/cn/sdk/nodejs.md"
+          Slug: sdk-nodejs
+        - "java":
+          Link: "https://github.com/webfont-io/webfont/blob/master/readme/cn/sdk/java.md"
+          Slug: sdk-java

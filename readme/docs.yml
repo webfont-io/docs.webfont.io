@@ -1,0 +1,25 @@
+Site: "webfont documents"
+Output: "docs"
+CDN: "https://docs.webfont.io/assets"
+Logo: "/assets/img/webfont.png"
+HtmlBase: "" #example /cn
+PageOnly: true
+footerHTML: webfont.io tech
+
+Language:
+  - 简体中文: /cn/index.html
+  - English: /index.html
+Plugins:
+  #- Algolia:
+  #    apiKey: "ALGOLIA_TOKEN"
+  #    index: "INDEX_NAME"
+  #- Google Analytics: "UA-XXXXX-Y"
+  #- Mixpanel: "MIXPANEL_TOKEN"
+  - Footer Widget:
+      Label: "Contact customer service"
+      Link: "https://webfont.io/"
+Documents:
+  - "Get-Started":
+      - "quick-start-guide":
+        Link: "https://github.com/webfont-io/webfont/blob/master/readme/en/Get-Started/quick-start-guide.md"
+        Slug: quick-start-guide
