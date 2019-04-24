@@ -7,18 +7,18 @@
 > 所以，我们推出“按需截取”(根据页面内容把字体中不需要的字型删除掉)服务，将中文字体压缩成和英文字体一样小巧玲珑。
 
 
-## 1,在线生成WebFont
+## 1,下载WebFont
 我们提供在线生成WebFont功能，您可以免注册在线提交内容，然后将生成的WebFont文件下载文件到本地，真正“用完即走”模式。
 
 网址：https://webfont.io/online.html
 
 
-## 2,智能子集化
+## 2,智能JS
 我们提供智能JS插件，它可以智能检测网页上指定的内容→自动提交→自动生成WebFont文件→最后自动将WebFont引用到当前页面，并确保WebFont生效。当页面内容有更新，它也会智能感应→自动更新当前WebFont。
 JS插件引用代码如下：
 
 ``` javascript
-<script type="text/javascript" src="http://cdn.webfont.apiatm.com/wwwroot/js/wf/webfont.api.min.js"></script>
+<script type="text/javascript" src="https://lib.webfont.com/fastjs.min.js"></script>
 <script type="text/javascript">
    $webfont.load("seletor", "accesskey", "fontfamily");
    $webfont.draw();
