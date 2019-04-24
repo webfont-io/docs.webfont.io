@@ -31,7 +31,7 @@ JS插件引用代码如下：
 网址：https://webfont.io/fs.html
 
 
-## 4,SDK调用
+## 4,后端SDK
 我们提供标准API接口，您可以通过程序调用来批量生成WebFont文件。为了方便您的应用，我们将API接口的调用代码打包成SDK，您可以通过SDK实现快速开发。
 网址：https://webfont.io/sdk.html
 
