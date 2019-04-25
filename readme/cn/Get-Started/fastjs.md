@@ -53,10 +53,14 @@ $webfont.load("body", "8888888888888888888888", "Helvetica,Source-Han-Light");
 <script type="text/javascript" src="https://lib.webfont.com/fastjs.min.js?"></script>
 ```
 2,在JS地址后面通过param参数来指示哪些参数需要保留，多个参数用“|”隔开（这些参数变动，会影响应用了在线字体的那部分内容），其他的参数忽略。
+
+例如：
 ```javascript
 <script type="text/javascript" src="https://lib.webfont.com/fastjs.min.js?param=page|proid"></script>
 ```
 3,在JS地址后面通过noparam参数来指示哪些参数需要忽略，多个参数用“|”隔开（这些参数变动，不会影响应用了在线字体的那部分内容），其他的参数保留。
+
+例如：
 ```javascript
 <script type="text/javascript" src="https://lib.webfont.com/fastjs.min.js?noparam=page|proid"></script>
 ```
