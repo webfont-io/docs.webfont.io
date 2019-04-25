@@ -30,7 +30,7 @@
 }
 
 /* 
-{fontfamilyname}是用户指定的；
+{fontfamilyname}是由用户自定义的；
 {fontfamilyname}就是WebFont字体的名字，此处定义成什么名字，标签引用时，就必须也用这个名字；
 同一页面，不能定义重复的{fontfamilyname}。
 
