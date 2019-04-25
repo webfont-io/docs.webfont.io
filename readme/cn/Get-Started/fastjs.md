@@ -24,7 +24,7 @@
 //第三个参数"fontfamily"请设置字体的英文名。
 
 ```
->JS插件可支持英文字体替换功能，即内容中的英文，使用其他英文字体来显示。只需要在$webfont.load语句中的第三个参数中添加指定的英文字体名字即可（如:\$webfont.load("seletor1", "accesskey", "**Helvetica**,Source-Han-Light");  显示时内容中的英文将以Helvetica字体显示，中文将以Source-Han-Light字体显示）。
+>JS插件可支持英文字体替换功能，即内容中的英文使用其他英文字体来显示。只需要在$webfont.load语句中的第三个参数中添加指定的英文字体名字即可（如:\$webfont.load("body", "8888888888888888888888", "**Helvetica**,Source-Han-Light");  显示时内容中的英文将以Helvetica字体显示，中文将以Source-Han-Light字体显示）。
 
 >JS插件可支持同一个页面上引用多个WebFont，只需要添加多行$webfont.load语句即可，然后根据情况设置各自的选择器、Accesskey和fontfamily。
 
