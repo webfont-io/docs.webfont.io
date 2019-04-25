@@ -24,14 +24,6 @@
 //第三个参数"fontfamily"请设置字体的英文名。
 ```
 ## 3,JS插件主要功能
-### 英文字体替换
-智能JS插件可支持英文字体替换功能，即内容中的英文使用其他英文字体来显示。只需要在$webfont.load语句中的第三个参数中添加指定的英文字体名字即可。
-
-例如:
- ``` javascript
-$webfont.load("body", "8888888888888888888888", "Helvetica,Source-Han-Light"); 
-//内容中的英文将以Helvetica字体显示，中文将以Source-Han-Light字体显示）。
-```
 ### 一个页面上引用多个WebFont
 JS插件可支持同一个页面上引用多个WebFont，只需要添加多行$webfont.load语句即可，然后根据情况设置各自的选择器、Accesskey和fontfamily。
 
@@ -41,6 +33,15 @@ $webfont.load(".title", "8888888888888888888888", "LiDeBiao-Xing3");
 $webfont.load("#text", "9999999999999999999999", "SiYuanRegular"); 
 //class为title的标签显示为LiDeBiao-Xing3字体，id为text的标签显示为SiYuanRegular字体。
 ```
+### 英文字体替换
+智能JS插件可支持英文字体替换功能，即内容中的英文使用其他英文字体来显示。只需要在$webfont.load语句中的第三个参数中添加指定的英文字体名字即可。
+
+例如:
+ ``` javascript
+$webfont.load("body", "8888888888888888888888", "Helvetica,Source-Han-Light"); 
+//内容中的英文将以Helvetica字体显示，中文将以Source-Han-Light字体显示）。
+```
+
 ### URL中带变动的参数
 
 >JS插件是通过当前页面的URL为key来存放页面相应的字体的，所以新的页面（新的URL）首次打开时，会有闪烁的现象，那是服务器在生成字体并将字体注册在当前新的URL(新的key)下；
