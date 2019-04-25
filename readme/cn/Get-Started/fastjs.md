@@ -35,7 +35,7 @@ $webfont.load("body", "8888888888888888888888", "Helvetica,Source-Han-Light");
  ``` javascript
 $webfont.load(".title", "8888888888888888888888", "LiDeBiao-Xing3"); 
 $webfont.load("#text", "9999999999999999999999", "SiYuanRegular"); 
-//class为title的标签显示为LiDeBiao-Xing3字本，id为text的标签显示为SiYuanRegular字体。
+//class为title的标签显示为LiDeBiao-Xing3字体，id为text的标签显示为SiYuanRegular字体。
 ```
 ## 3,URL中带变动的参数
 
