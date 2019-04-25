@@ -53,3 +53,6 @@ $youzikuClient.getBatchFontFace(data, function (result) {
         }
 });
 ```
+
+
+>本接口自动生成@font-face对象，并自动将其插入页面的head标签中(@font-face对象也可在回调返回对象中获取)。引用字体时，可以使用字体的FontFamily来引用(FontFamily是字体的英文名，可以事先从字体详情页获取；另外，回调返回对象中也有FontFamily信息)，或者传参时，把选择器通过Tag参数提交上去，js就会自动把字体效果应用到选择器指定的标签上。
