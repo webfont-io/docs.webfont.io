@@ -44,10 +44,10 @@
 @font-face
 {
     font-family: 'NotoSansCJKsc-light';
-    src:url(https://cdn.webfont.com/webfonts/custompath/89B7CC9B4E975C85/index.gif);
-    src:url(https://cdn.webfont.com/webfonts/custompath/89B7CC9B4E975C85/index.gif#iefix) format('embedded-opentype'),
-    url(https://cdn.webfont.com/webfonts/custompath/89B7CC9B4E975C85/index.png) format('woff2'),
-    url(https://cdn.webfont.com/webfonts/custompath/89B7CC9B4E975C85/index.bmp) format('woff'),
-    url(https://cdn.webfont.com/webfonts/custompath/89B7CC9B4E975C85/index.jpg) format('truetype');
+    src:url(https://cdn.webfont.com/webfonts/custompath/89B7CC9B4E975C85/page15.gif);
+    src:url(https://cdn.webfont.com/webfonts/custompath/89B7CC9B4E975C85/page15.gif#iefix) format('embedded-opentype'),
+    url(https://cdn.webfont.com/webfonts/custompath/89B7CC9B4E975C85/page15.png) format('woff2'),
+    url(https://cdn.webfont.com/webfonts/custompath/89B7CC9B4E975C85/page15.bmp) format('woff'),
+    url(https://cdn.webfont.com/webfonts/custompath/89B7CC9B4E975C85/page15.jpg) format('truetype');
 }
 ```
