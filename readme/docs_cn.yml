@@ -23,6 +23,21 @@ Documents:
       - "快速入门":
         Link: "https://github.com/webfont-io/webfont/blob/master/readme/cn/Get-Started/quick-start-guide.md"
         Slug: quick-start-guide
+ 
+  - "SDK":
+        - "SDK指南":
+          Link: "https://github.com/webfont-io/webfont/blob/master/readme/cn/sdk/guide.md"
+          Slug: sdk-guide
+        - "golang":
+          Link: "https://github.com/webfont-io/webfont/blob/master/readme/cn/sdk/golang.md"
+          Slug: sdk-golang
+        - "nodejs":
+          Link: "https://github.com/webfont-io/webfont/blob/master/readme/cn/sdk/nodejs.md"
+          Slug: sdk-nodejs
+        - "java":
+          Link: "https://github.com/webfont-io/webfont/blob/master/readme/cn/sdk/java.md"
+          Slug: sdk-java
+  
   - "独立部署":
         - "安装指南":
           Link: "https://github.com/webfont-io/webfont/blob/master/readme/cn/selfhost/guide.md"
@@ -42,16 +57,3 @@ Documents:
         - "Windows":
           Link: "https://github.com/webfont-io/webfont/blob/master/readme/cn/selfhost/windows.md"
           Slug: self-host-windows
-  - "SDK":
-        - "SDK指南":
-          Link: "https://github.com/webfont-io/webfont/blob/master/readme/cn/sdk/guide.md"
-          Slug: sdk-guide
-        - "golang":
-          Link: "https://github.com/webfont-io/webfont/blob/master/readme/cn/sdk/golang.md"
-          Slug: sdk-golang
-        - "nodejs":
-          Link: "https://github.com/webfont-io/webfont/blob/master/readme/cn/sdk/nodejs.md"
-          Slug: sdk-nodejs
-        - "java":
-          Link: "https://github.com/webfont-io/webfont/blob/master/readme/cn/sdk/java.md"
-          Slug: sdk-java
