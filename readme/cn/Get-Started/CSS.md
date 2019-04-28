@@ -26,7 +26,7 @@ CSS文件中的代码如：
 
 ```
 
-2. 在目标页面的目标标签上设置style="font-family:{fontfamilyname}"（<u>{fontfamilyname}</u>是下载的WebFont所创建的字体名字（即CSS文件中@font-face语句定义的font-family）。
+2. 在目标页面的目标标签上设置style="font-family:{fontfamilyname}"（<u>{fontfamilyname}</u>是该WebFont所创建的字体的名字（即CSS文件中@font-face语句定义的font-family）。
 
 ## 3,注意事项
 
