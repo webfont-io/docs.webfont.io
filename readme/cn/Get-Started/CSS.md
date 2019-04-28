@@ -17,11 +17,11 @@ CSS文件中的代码如：
 @font-face
 {
     font-family: '{fontfamilyname}';
-    src:url({fontid}.eot);
-    src:url({fontid}.eot#iefix) format('embedded-opentype'),
-    url({fontid}.woff2) format('woff2'),
-    url({fontid}.woff) format('woff'),
-    url({fontid}.ttf) format('truetype');
+    src:url({fontfilename}.eot);
+    src:url({fontfilename}.eot#iefix) format('embedded-opentype'),
+    url({fontfilename}.woff2) format('woff2'),
+    url({fontfilename}.woff) format('woff'),
+    url({fontfilename}.ttf) format('truetype');
 }
 
 ```
