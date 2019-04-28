@@ -31,7 +31,7 @@
 
 /* 
 {fontfamilyname}是由用户自定义的；
-{fontfamilyname}就是WebFont字体的名字，此处定义成什么名字，标签引用时，就必须也用这个名字；
+{fontfamilyname}就是WebFont所创建的字体名字，标签引用时，必须呼应这个名字；
 同一页面，不能定义重复的{fontfamilyname}。
 
 {UserKey}是服务器为每个用户专门开僻的存储空间的名字，UserKey可以从用户后台获取。
