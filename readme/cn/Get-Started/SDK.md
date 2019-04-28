@@ -30,9 +30,7 @@
 }
 
 /* 
-{fontfamilyname}是由用户自定义的；
-{fontfamilyname}就是WebFont所创建的字体的名字，标签引用时，必须呼应这个名字；
-同一页面，不能定义重复的{fontfamilyname}。
+{fontfamilyname}是由用户自定义的；它就是WebFont所创建的字体的名字，当某个标签要引用这个WebFont时，font-family必须与它一致；同一页面，不能重复创建相同的{fontfamilyname}。
 
 {UserKey}是服务器为每个用户专门开僻的存储空间的名字，UserKey可以从用户后台获取。
 
