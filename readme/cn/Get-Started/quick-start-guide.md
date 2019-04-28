@@ -10,7 +10,7 @@
 ## 1,下载WebFont
 我们提供在线生成WebFont功能，您可以免注册在线提交内容，然后将生成的WebFont文件下载文件到本地，真正“用完即走”模式。
 
-网址：https://webfont.io/online.html
+文档：https://webfont.io/online.html
 
 
 ## 2,智能JS
@@ -27,18 +27,18 @@ JS插件引用代码如下：
 </script>
 ```
 
-网址：https://webfont.io/realtime.html
+文档：https://webfont.io/realtime.html
 
 ## 3,即时编辑（H5）
 我们提供即时编辑插件，它是专门针对在线文字编辑场景设计。通过它调用中文字体，初始化时，无需加载任何字体数据，从而使页面得以极速展开。它会根据用户输入的内容快速获取需要的字型。即时响应，轻盈灵巧。
 
-网址：https://webfont.io/fs.html
+文档：https://webfont.io/fs.html
 
 
 ## 4,后端SDK
 我们提供标准API接口，您可以通过程序调用来批量生成WebFont文件。为了方便您的应用，我们将API接口的调用代码打包成SDK，您可以通过SDK实现快速开发。
 
-网址：https://webfont.io/sdk.html
+文档：https://webfont.io/sdk.html
 
 
 ## 5,独立部署（推荐）
@@ -52,3 +52,4 @@ JS插件引用代码如下：
     
     - 腾讯云
 
+文档：https://webfont.io/selfhost.html
