@@ -83,7 +83,7 @@ var response =  youzikuClient.GetCustomPathBatchWebFont(cusParam);
 
 
 
-### 2.2 语句绑定模式：GetBatchFontFace()
+### 2.2 返回语句模式：GetBatchFontFace()
 
 
 ``` csharp
