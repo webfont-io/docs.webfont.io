@@ -16,36 +16,9 @@
     ④用户使用字体时，用自定义的路径，按@font-face格式来拼出能兼容所有浏览器的@font-face语句
    
    
-## 3,@font-face语句拼组
-@font-face语句拼组格式如下：
-```css
-@font-face
-{
-    font-family: '{fontfamilyname}';
-    src:url(https://cdn.webfont.com/webfonts/custompath/{UserKey}/{Url}.gif);
-    src:url(https://cdn.webfont.com/webfonts/custompath/{UserKey}/{Url}.gif#iefix) format('embedded-opentype'),
-    url(https://cdn.webfont.com/webfonts/custompath/{UserKey}/{Url}.png) format('woff2'),
-    url(https://cdn.webfont.com/webfonts/custompath/{UserKey}/{Url}.bmp) format('woff'),
-    url(https://cdn.webfont.com/webfonts/custompath/{UserKey}/{Url}.jpg) format('truetype');
-}
+## 3,@font-face
+@font-face语句是CSS3中的一个功能模块，是所有浏览器天然支持的CSS语句。它的作用是将一个远程字体文件加载到当前页面，并且创建出一个前端网页可以调用的字体。
+@font-face语句是实现WebFont的核心代码。
 
-/* 
-{fontfamilyname}是由用户自定义的；它就是WebFont所创建的字体的名字，当某个标签要引用这个WebFont时，font-family必须与它一致；同一页面，不能重复创建相同的{fontfamilyname}。
-
-{UserKey}是服务器为每个用户专门开僻的存储空间的名字，UserKey可以从用户后台获取。
-
-{Url}即是调用接口时所提交的参数(url)。
-*/
-```
-例如：
-```css
-@font-face
-{
-    font-family: 'NotoSansCJKsc-light';
-    src:url(https://cdn.webfont.com/webfonts/custompath/89B7CC9B4E975C85/page15.gif);
-    src:url(https://cdn.webfont.com/webfonts/custompath/89B7CC9B4E975C85/page15.gif#iefix) format('embedded-opentype'),
-    url(https://cdn.webfont.com/webfonts/custompath/89B7CC9B4E975C85/page15.png) format('woff2'),
-    url(https://cdn.webfont.com/webfonts/custompath/89B7CC9B4E975C85/page15.bmp) format('woff'),
-    url(https://cdn.webfont.com/webfonts/custompath/89B7CC9B4E975C85/page15.jpg) format('truetype');
-}
-```
+## 4,SDK下载
+下载地址：https://webfont.io/SDKGuide.html
