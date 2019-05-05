@@ -50,8 +50,7 @@ SDK适用于在Java中调用字体子集化方法。
        commons-logging-1.0.3<br />
        commons-codec-1.2<br />
        fastjson-1.2.5<br />
-
-    3. [下载SDK](https://github.com/youziku/youziku-sdk-java/raw/master/sdk%E4%B8%8B%E8%BD%BD/youziku.java.sdk.jars.zip "java") 
+    3. - [下载SDK](https://github.com/youziku/youziku-sdk-java/raw/master/sdk%E4%B8%8B%E8%BD%BD/youziku.java.sdk.jars.zip "java") 
 
 2)maven方式(推荐)
 ``` xml
