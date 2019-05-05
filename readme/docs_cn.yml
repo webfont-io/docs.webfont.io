@@ -1,4 +1,4 @@
-Site: "webfont 文档中心"
+Site: "技术文档"
 Output: "docs/cn"
 CDN: "https://docs.webfont.io/assets"
 Logo: "/assets/img/webfont.png"
@@ -17,43 +17,58 @@ Plugins:
   #- Mixpanel: "MIXPANEL_TOKEN"
   - Footer Widget:
       Label: "联系客服"
-      Link: "https://webfont.io/"
+      Link: "https://www.webfont.com/"
 Documents:
   - "简介":
       - "快速入门":
-        Link: "https://github.com/webfont-io/webfont/blob/master/readme/cn/Get-Started/quick-start-guide.md"
+        Link: "https://github.com/webfont-io/docs.webfont.io/blob/master/readme/cn/Get-Started/quick-start-guide.md"
         Slug: quick-start-guide
+      - "下载WebFont":
+        Link: "https://github.com/webfont-io/docs.webfont.io/blob/master/readme/cn/Get-Started/CSS.md"
+        Slug: CSS
+      - "智能JS插件":
+        Link: "https://github.com/webfont-io/docs.webfont.io/blob/master/readme/cn/Get-Started/fastjs.md"
+        Slug: fastjs
+      - "H5即时插件":
+        Link: "https://github.com/webfont-io/docs.webfont.io/blob/master/readme/cn/Get-Started/H5.md"
+        Slug: H5
+      - "后端SDK":
+        Link: "https://github.com/webfont-io/docs.webfont.io/blob/master/readme/cn/Get-Started/SDK.md"
+        Slug: SDK
  
   - "SDK":
         - "SDK指南":
-          Link: "https://github.com/webfont-io/webfont/blob/master/readme/cn/sdk/guide.md"
+          Link: "https://github.com/webfont-io/docs.webfont.io/blob/master/readme/cn/sdk/guide.md"
           Slug: sdk-guide
-        - "golang":
-          Link: "https://github.com/webfont-io/webfont/blob/master/readme/cn/sdk/golang.md"
-          Slug: sdk-golang
+        - ".Net":
+          Link: "https://github.com/webfont-io/docs.webfont.io/blob/master/readme/cn/sdk/DotNet.md"
+          Slug: sdk-dotNet
         - "nodejs":
-          Link: "https://github.com/webfont-io/webfont/blob/master/readme/cn/sdk/nodejs.md"
+          Link: "https://github.com/webfont-io/docs.webfont.io/blob/master/readme/cn/sdk/nodejs.md"
           Slug: sdk-nodejs
         - "java":
-          Link: "https://github.com/webfont-io/webfont/blob/master/readme/cn/sdk/java.md"
+          Link: "https://github.com/webfont-io/docs.webfont.io/blob/master/readme/cn/sdk/java.md"
           Slug: sdk-java
+        - "PHP":
+          Link: "https://github.com/webfont-io/docs.webfont.io/blob/master/readme/cn/sdk/php.md"
+          Slug: sdk-php
   
   - "独立部署":
         - "安装指南":
-          Link: "https://github.com/webfont-io/webfont/blob/master/readme/cn/selfhost/guide.md"
+          Link: "https://github.com/webfont-io/docs.webfont.io/blob/master/readme/cn/selfhost/guide.md"
           Slug: self-host-guide
         - "docker":
-          Link: "https://github.com/webfont-io/webfont/blob/master/readme/cn/selfhost/docker.md"
+          Link: "https://github.com/webfont-io/docs.webfont.io/blob/master/readme/cn/selfhost/docker.md"
           Slug: self-host-docker
         - "docker-compose":
-          Link: "https://github.com/webfont-io/webfont/blob/master/readme/cn/selfhost/docker-compose.md"
+          Link: "https://github.com/webfont-io/docs.webfont.io/blob/master/readme/cn/selfhost/docker-compose.md"
           Slug: self-host-docker-compose
         - "ubuntu":
-          Link: "https://github.com/webfont-io/webfont/blob/master/readme/cn/selfhost/ubuntu.md"
+          Link: "https://github.com/webfont-io/docs.webfont.io/blob/master/readme/cn/selfhost/ubuntu.md"
           Slug: self-host-ubuntu
         - "Mac os":
-          Link: "https://github.com/webfont-io/webfont/blob/master/readme/cn/selfhost/macos.md"
+          Link: "https://github.com/webfont-io/docs.webfont.io/blob/master/readme/cn/selfhost/macos.md"
           Slug: self-host-macos
         - "Windows":
-          Link: "https://github.com/webfont-io/webfont/blob/master/readme/cn/selfhost/windows.md"
+          Link: "https://github.com/webfont-io/docs.webfont.io/blob/master/readme/cn/selfhost/windows.md"
           Slug: self-host-windows
