@@ -31,6 +31,7 @@ JS插件可支持同一个页面上引用多个WebFont，只需要添加多行$w
  ``` javascript
 $webfont.load(".title", "8888888888888888888888", "LiDeBiao-Xing3"); 
 $webfont.load("#text", "9999999999999999999999", "SiYuanRegular"); 
+$webfont.draw();
 //class为title的标签显示为LiDeBiao-Xing3字体，id为text的标签显示为SiYuanRegular字体。
 ```
 ### 英文字体替换
@@ -39,6 +40,7 @@ $webfont.load("#text", "9999999999999999999999", "SiYuanRegular");
 例如:
  ``` javascript
 $webfont.load("body", "8888888888888888888888", "Helvetica,Source-Han-Light"); 
+$webfont.draw();
 //内容中的英文将以Helvetica字体显示，中文将以Source-Han-Light字体显示）。
 ```
 
