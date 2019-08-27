@@ -2,11 +2,11 @@
 
 
 
-- [docker](docker.html)
-- [docker-composer](docker-composer.html "docker-composer")
-- [ubuntu](ubuntu.html "ubuntu")
-- [Mac OS](macos.html "Mac OS")
-- [Windows](windows.html "Mac OS")
+- [docker](docker.md "docker")
+- [docker-composer](docker-composer.md "docker-composer")
+- [ubuntu](ubuntu.md "ubuntu")
+- [Mac OS](macos.md "Mac OS")
+- [Windows](windows.md "Mac OS")
   
 ### 请根据自身情况选择适合您的二进制包来安装
 
