@@ -6,7 +6,7 @@
 docker stop webfont-api && docker rm webfont-api
 
 #运行docker 
-docker run -d -it --name="webfont-api" -p 5000:5000 -e "WEBFONT_PORT=:5000" -e "WEBFONT_SERIALNUMBER=a9bd9453-99f7-5b91-9e81-5864d7732a05" -e "WEBFONT_APIKEY=123456" hkloudou/webfont-api:latest
+docker run -d -it --name="webfont-api" -p 5000:5000 -e "WEBFONT_PORT=:5000" -e "WEBFONT_SERIALNUMBER=a9bd9453-99f7-5b91-9e81-5864d7732a05" -e "WEBFONT_APIKEY=123456" registry.cn-hangzhou.aliyuncs.com/webfont/webfont-api:v1.0.35
 
 #查看日志
 docker logs webfont-api
