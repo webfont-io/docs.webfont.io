@@ -3,7 +3,7 @@
 
 
 - [docker](docker.md "docker")
-- [docker-composer](docker-composer.md "docker-composer")
+- [docker-composer](docker-compose.md "docker-composer")
 - [ubuntu](ubuntu.md "ubuntu")
 - [Mac OS](macos.md "Mac OS")
 - [Windows](windows.md "Mac OS")
