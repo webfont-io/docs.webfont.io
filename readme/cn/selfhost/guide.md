@@ -2,7 +2,7 @@
 
 
 
-- [docker](selfhost/docker.html)
+- [docker](docker.html)
 - [docker-composer](docker-composer.html "docker-composer")
 - [ubuntu](ubuntu.html "ubuntu")
 - [Mac OS](macos.html "Mac OS")
