@@ -13,7 +13,7 @@
 
 将下面JS插件引用到页面的\<head\>标签里，然后设置选择器、Accesskey和fontfamily即可生效。
  ``` javascript
-<script type="text/javascript" src="https://lib.webfont.com/fastjs.min.js"></script>
+<script type="text/javascript" src="https://cdn.repository.webfont.com/wwwroot/js/wf/youziku.api.min.js"></script>
 <script type="text/javascript">
    $webfont.load("seletor", "accesskey", "fontfamily");
    $webfont.draw();
@@ -51,17 +51,17 @@ $webfont.draw();
 如果参数的变动对于应用了在线字体的那部分内容没有影响（如微信分享时自动加的后缀），那么可以通知JS插件，让JS插件不去理会这些参数(也就是说，这些参数无论怎样变动，都不会被JS插件识别为新的URL)，具体操作方法如下：
 1,在JS地址后面添加一个英文问号(?)即可让JS插件不去理会当前URL所有的参数，也就是说，无论参数怎样变动，页面都不会再闪烁了。
 ```javascript
-<script type="text/javascript" src="https://lib.webfont.com/fastjs.min.js?"></script>
+<script type="text/javascript" src="https://cdn.repository.webfont.com/wwwroot/js/wf/youziku.api.min.js?"></script>
 ```
 2,在JS地址后面通过param参数来指示哪些参数需要保留，多个参数用“|”隔开（这些参数变动，会影响应用了在线字体的那部分内容），其他的参数忽略。
 
 例如：
 ```javascript
-<script type="text/javascript" src="https://lib.webfont.com/fastjs.min.js?param=page|proid"></script>
+<script type="text/javascript" src="https://cdn.repository.webfont.com/wwwroot/js/wf/youziku.api.min.js?param=page|proid"></script>
 ```
 3,在JS地址后面通过noparam参数来指示哪些参数需要忽略，多个参数用“|”隔开（这些参数变动，不会影响应用了在线字体的那部分内容），其他的参数保留。
 
 例如：
 ```javascript
-<script type="text/javascript" src="https://lib.webfont.com/fastjs.min.js?noparam=page|proid"></script>
+<script type="text/javascript" src="https://cdn.repository.webfont.com/wwwroot/js/wf/youziku.api.min.js?noparam=page|proid"></script>
 ```
