@@ -1,7 +1,9 @@
 ## macos下webfont独立部署安装
  
 ### 下载二进制
-请从 https://github.com/webfont-io/webfont/releases 下载最新的二进制文件
+```sh
+darwin版配置文件请联系技术人员获取，技术人员联系方式：+86 13774423414
+```
 
 
 ### 授予运行权限
