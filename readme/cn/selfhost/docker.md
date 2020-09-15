@@ -1,5 +1,5 @@
 
-## 推荐方式：Docker
+## Docker独立部署
     docker方式基于alpine3.9构建
 ``` sh
 #如果已经运行了先停止运行
