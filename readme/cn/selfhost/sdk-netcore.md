@@ -29,7 +29,7 @@ _address：host(部署webfont服务的服务器IP)+port(部署webfont服务的�
 
 ``` C#
 SDK.WebFontClient client = new SDK.WebFontClient();           
-WebFontFace result = client.GetFontFace(new FontFaceParam("d9ffb195f7e041d4a03fb8084f9c4fe5", "中文test(.net core is best)", "#id1", ""));
+WebFontFace result = client.GetFontFace(new FontFaceParam("xxxxxxxxxxxxxxxxxxxxxxxxxxxxx", "中文test(.net core is best)", "#id1", ""));
 //FontFaceParam构造函数的第1个参数：accessKey参数是需要生成子集字体的字体ID，必填参数；
 //FontFaceParam构造函数的第2个参数：content参数是需要生成子集字体的内容文本，必填参数；
 //FontFaceParam构造函数的第3个参数：Tag参数是选择器代码(select)，如果填写Tag参数，则返回的@font-face语句会带有将webfont应用到选择器中的代码，选填参数；
