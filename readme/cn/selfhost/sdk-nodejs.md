@@ -32,13 +32,12 @@ addr：host(部署webfont服务的服务器IP)+port(部署webfont服务的服务
 //content参数是需要生成子集字体的内容文本，必填参数；
 //tag参数是选择器代码(select)，如果填写Tag参数，则返回的@font-face语句会带有将webfont应用到选择器中的代码，选填参数；
 //url参数是自定义文件地址，如果填写URL参数，则SDK会按URL指定的地址来保存生成的字体文件(url参数在不同请求中必须唯一，不唯一则会导致生成的文件相互覆盖)，如果不填写，则系统会在指定文件夹下自动创建，选填参数。
-
-  webFontClient.getFontFace({accessKey:' xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx', content:'内容文字', tag:'#id1', url:''}, function(err, webFontInfo) {
+webFontClient.getFontFace({accessKey:' xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx', content:'内容文字', tag:'#id1', url:''}, function(err, webFontInfo) {
 	  if(err) {
 		console.log('error: ' + err);
 	  } else {
 		console.log('\nwebFontInfo: ' + JSON.stringify(webFontInfo));
 	  }
-  });
+});
 
 ```
