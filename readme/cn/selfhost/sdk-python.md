@@ -27,7 +27,7 @@ addr：host(部署webfont服务的服务器IP)+port(部署webfont服务的服务
 
 ``` python
 webFontFace = getFontFace(
-{'accessKey': 'd9ffb195f7e041d4a03fb8084f9c4fe5', 'content': '中文字体测试', 'tag': '#id1', 'url': ''})
+{'accessKey': 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx', 'content': '中文字体测试', 'tag': '#id1', 'url': ''})
 #accessKey参数是需要生成子集字体的字体ID，必填参数；    
 #content参数是需要生成子集字体的内容文本，必填参数；    
 #tag参数是选择器代码(select)，如果填写Tag参数，则返回的@font-face语句会带有将webfont应用到选择器中的代码，选填参数；    
