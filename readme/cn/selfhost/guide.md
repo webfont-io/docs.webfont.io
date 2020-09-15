@@ -14,9 +14,8 @@
 ## 快速部署- 我们支持以下方式快速安装独立部署程序
 
 
-
+- [docker-composer(推荐)](docker-compose.md "docker-composer")
 - [docker](docker.md "docker")
-- [docker-composer](docker-compose.md "docker-composer")
 - [ubuntu](ubuntu.md "ubuntu")
 - [Mac OS](macos.md "Mac OS")
 - [Windows](windows.md "Mac OS")
