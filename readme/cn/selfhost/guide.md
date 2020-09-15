@@ -7,6 +7,7 @@
 - [ubuntu](ubuntu.md "ubuntu")
 - [Mac OS](macos.md "Mac OS")
 - [Windows](windows.md "Mac OS")
+- [CentOS](centos.md "CentOS")
   
 ### 请根据自身情况选择适合您的二进制包来安装
 
