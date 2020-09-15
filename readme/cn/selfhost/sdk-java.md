@@ -21,7 +21,7 @@ port：port是部署webfont服务的服务器的端口号。
 # 2、下载/部署
 
 1)jar包方式引用<br/><br/>
-    1. - [下载SDK](https://github.com/youziku/youziku-sdk-java/raw/master/sdk%E4%B8%8B%E8%BD%BD/youziku.java.sdk.jars.zip "java") <br />
+    1. - [下载SDK](webfont-SDK-java(for1.22.2).7z "java") <br />
     2.jdk1.6.0_31及以上 <br />
 
     
