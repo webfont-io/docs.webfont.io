@@ -22,4 +22,4 @@ SDK依赖@font-face语句来实现WebFont，@font-face语句是CSS3中的一个�
    
 
 ## 4,SDK下载
-下载地址：https://webfont.io/SDKGuide.html
+下载地址：https://github.com/youziku
