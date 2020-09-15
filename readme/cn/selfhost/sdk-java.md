@@ -11,7 +11,7 @@ SDK中内置的上传存储空间的代码是OSS的上传代码。可以根据�
 #### ApiKey和服务器地址
 在SDK中的WebFontClient.java文件中，将变量apiKey，host ，port的值根据自身情况替换为实际的值了可。
 ``` sh
-apiKey：apiKey是由docker-compose.yml里的WEBFONT_APIKEY定义，两者必须对应才能调用成功。
+apiKey：apiKey必须与配置文件(docker-compose.yml或config.yml)里的WEBFONT_APIKEY相匹配，两者必须一致才能调用成功。
 host：host是部署webfont服务的服务器IP。
 port：port是部署webfont服务的服务器的端口号。
 ```
