@@ -1,0 +1,8 @@
+C:\Users\jamesbing\Documents\WeChat Files\bing694412184\FileStorage\File\2020-04\WebFontClient_NetCore\WebFontClient_NetCore\WebFontClient.SDK\bin\Release\netcoreapp3.0\WebFontClient.SDK.deps.json
+C:\Users\jamesbing\Documents\WeChat Files\bing694412184\FileStorage\File\2020-04\WebFontClient_NetCore\WebFontClient_NetCore\WebFontClient.SDK\bin\Release\netcoreapp3.0\WebFontClient.SDK.dll
+C:\Users\jamesbing\Documents\WeChat Files\bing694412184\FileStorage\File\2020-04\WebFontClient_NetCore\WebFontClient_NetCore\WebFontClient.SDK\bin\Release\netcoreapp3.0\WebFontClient.SDK.pdb
+C:\Users\jamesbing\Documents\WeChat Files\bing694412184\FileStorage\File\2020-04\WebFontClient_NetCore\WebFontClient_NetCore\WebFontClient.SDK\obj\Release\netcoreapp3.0\WebFontClient.SDK.csproj.CoreCompileInputs.cache
+C:\Users\jamesbing\Documents\WeChat Files\bing694412184\FileStorage\File\2020-04\WebFontClient_NetCore\WebFontClient_NetCore\WebFontClient.SDK\obj\Release\netcoreapp3.0\WebFontClient.SDK.AssemblyInfoInputs.cache
+C:\Users\jamesbing\Documents\WeChat Files\bing694412184\FileStorage\File\2020-04\WebFontClient_NetCore\WebFontClient_NetCore\WebFontClient.SDK\obj\Release\netcoreapp3.0\WebFontClient.SDK.AssemblyInfo.cs
+C:\Users\jamesbing\Documents\WeChat Files\bing694412184\FileStorage\File\2020-04\WebFontClient_NetCore\WebFontClient_NetCore\WebFontClient.SDK\obj\Release\netcoreapp3.0\WebFontClient.SDK.dll
+C:\Users\jamesbing\Documents\WeChat Files\bing694412184\FileStorage\File\2020-04\WebFontClient_NetCore\WebFontClient_NetCore\WebFontClient.SDK\obj\Release\netcoreapp3.0\WebFontClient.SDK.pdb

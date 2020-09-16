@@ -1,0 +1,2 @@
+obj\Release\netcoreapp3.0/Webfont.cs \
+obj\Release\netcoreapp3.0/WebfontGrpc.cs: Protos/webfont.proto

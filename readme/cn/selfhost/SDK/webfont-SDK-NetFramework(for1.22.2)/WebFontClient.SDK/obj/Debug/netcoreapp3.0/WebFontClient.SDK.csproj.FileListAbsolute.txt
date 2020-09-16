@@ -1,0 +1,32 @@
+C:/Users/ctwl/Desktop/WebFontClient_NetCore/WebFontClient_NetCore/WebFontClient.SDK/bin/Debug/netcoreapp3.0/WebFontClient.SDK.deps.json
+C:/Users/ctwl/Desktop/WebFontClient_NetCore/WebFontClient_NetCore/WebFontClient.SDK/bin/Debug/netcoreapp3.0/WebFontClient.SDK.dll
+C:/Users/ctwl/Desktop/WebFontClient_NetCore/WebFontClient_NetCore/WebFontClient.SDK/bin/Debug/netcoreapp3.0/WebFontClient.SDK.pdb
+C:/Users/ctwl/Desktop/WebFontClient_NetCore/WebFontClient_NetCore/WebFontClient.SDK/obj/Debug/netcoreapp3.0/WebFontClient.SDK.csprojAssemblyReference.cache
+C:/Users/ctwl/Desktop/WebFontClient_NetCore/WebFontClient_NetCore/WebFontClient.SDK/obj/Debug/netcoreapp3.0/WebFontClient.SDK.AssemblyInfoInputs.cache
+C:/Users/ctwl/Desktop/WebFontClient_NetCore/WebFontClient_NetCore/WebFontClient.SDK/obj/Debug/netcoreapp3.0/WebFontClient.SDK.AssemblyInfo.cs
+C:/Users/ctwl/Desktop/WebFontClient_NetCore/WebFontClient_NetCore/WebFontClient.SDK/obj/Debug/netcoreapp3.0/WebFontClient.SDK.dll
+C:/Users/ctwl/Desktop/WebFontClient_NetCore/WebFontClient_NetCore/WebFontClient.SDK/obj/Debug/netcoreapp3.0/WebFontClient.SDK.pdb
+M:/个人项目/WebFontClient_NetCore/WebFontClient.SDK/bin/Debug/netcoreapp3.0/WebFontClient.SDK.deps.json
+M:/个人项目/WebFontClient_NetCore/WebFontClient.SDK/bin/Debug/netcoreapp3.0/WebFontClient.SDK.dll
+M:/个人项目/WebFontClient_NetCore/WebFontClient.SDK/bin/Debug/netcoreapp3.0/WebFontClient.SDK.pdb
+M:/个人项目/WebFontClient_NetCore/WebFontClient.SDK/obj/Debug/netcoreapp3.0/WebFontClient.SDK.AssemblyInfoInputs.cache
+M:/个人项目/WebFontClient_NetCore/WebFontClient.SDK/obj/Debug/netcoreapp3.0/WebFontClient.SDK.AssemblyInfo.cs
+M:/个人项目/WebFontClient_NetCore/WebFontClient.SDK/obj/Debug/netcoreapp3.0/WebFontClient.SDK.dll
+M:/个人项目/WebFontClient_NetCore/WebFontClient.SDK/obj/Debug/netcoreapp3.0/WebFontClient.SDK.pdb
+/home/xujf/Downloads/webfont-SDK-NetCore(for1.22.1)/WebFontClient_NetCore/WebFontClient.SDK/bin/Debug/netcoreapp3.0/WebFontClient.SDK.deps.json
+/home/xujf/Downloads/webfont-SDK-NetCore(for1.22.1)/WebFontClient_NetCore/WebFontClient.SDK/bin/Debug/netcoreapp3.0/WebFontClient.SDK.dll
+/home/xujf/Downloads/webfont-SDK-NetCore(for1.22.1)/WebFontClient_NetCore/WebFontClient.SDK/bin/Debug/netcoreapp3.0/WebFontClient.SDK.pdb
+/home/xujf/Downloads/webfont-SDK-NetCore(for1.22.1)/WebFontClient_NetCore/WebFontClient.SDK/obj/Debug/netcoreapp3.0/WebFontClient.SDK.csprojAssemblyReference.cache
+/home/xujf/Downloads/webfont-SDK-NetCore(for1.22.1)/WebFontClient_NetCore/WebFontClient.SDK/obj/Debug/netcoreapp3.0/WebFontClient.SDK.AssemblyInfoInputs.cache
+/home/xujf/Downloads/webfont-SDK-NetCore(for1.22.1)/WebFontClient_NetCore/WebFontClient.SDK/obj/Debug/netcoreapp3.0/WebFontClient.SDK.AssemblyInfo.cs
+/home/xujf/Downloads/webfont-SDK-NetCore(for1.22.1)/WebFontClient_NetCore/WebFontClient.SDK/obj/Debug/netcoreapp3.0/WebFontClient.SDK.dll
+/home/xujf/Downloads/webfont-SDK-NetCore(for1.22.1)/WebFontClient_NetCore/WebFontClient.SDK/obj/Debug/netcoreapp3.0/WebFontClient.SDK.pdb
+C:\Users\jamesbing\Documents\WeChat Files\bing694412184\FileStorage\File\2020-04\WebFontClient_NetCore\WebFontClient_NetCore\WebFontClient.SDK\bin\Debug\netcoreapp3.0\WebFontClient.SDK.deps.json
+C:\Users\jamesbing\Documents\WeChat Files\bing694412184\FileStorage\File\2020-04\WebFontClient_NetCore\WebFontClient_NetCore\WebFontClient.SDK\bin\Debug\netcoreapp3.0\WebFontClient.SDK.dll
+C:\Users\jamesbing\Documents\WeChat Files\bing694412184\FileStorage\File\2020-04\WebFontClient_NetCore\WebFontClient_NetCore\WebFontClient.SDK\bin\Debug\netcoreapp3.0\WebFontClient.SDK.pdb
+C:\Users\jamesbing\Documents\WeChat Files\bing694412184\FileStorage\File\2020-04\WebFontClient_NetCore\WebFontClient_NetCore\WebFontClient.SDK\obj\Debug\netcoreapp3.0\WebFontClient.SDK.csprojAssemblyReference.cache
+C:\Users\jamesbing\Documents\WeChat Files\bing694412184\FileStorage\File\2020-04\WebFontClient_NetCore\WebFontClient_NetCore\WebFontClient.SDK\obj\Debug\netcoreapp3.0\WebFontClient.SDK.csproj.CoreCompileInputs.cache
+C:\Users\jamesbing\Documents\WeChat Files\bing694412184\FileStorage\File\2020-04\WebFontClient_NetCore\WebFontClient_NetCore\WebFontClient.SDK\obj\Debug\netcoreapp3.0\WebFontClient.SDK.AssemblyInfoInputs.cache
+C:\Users\jamesbing\Documents\WeChat Files\bing694412184\FileStorage\File\2020-04\WebFontClient_NetCore\WebFontClient_NetCore\WebFontClient.SDK\obj\Debug\netcoreapp3.0\WebFontClient.SDK.AssemblyInfo.cs
+C:\Users\jamesbing\Documents\WeChat Files\bing694412184\FileStorage\File\2020-04\WebFontClient_NetCore\WebFontClient_NetCore\WebFontClient.SDK\obj\Debug\netcoreapp3.0\WebFontClient.SDK.dll
+C:\Users\jamesbing\Documents\WeChat Files\bing694412184\FileStorage\File\2020-04\WebFontClient_NetCore\WebFontClient_NetCore\WebFontClient.SDK\obj\Debug\netcoreapp3.0\WebFontClient.SDK.pdb

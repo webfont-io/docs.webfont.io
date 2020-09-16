@@ -1,0 +1,16 @@
+C:\Users\LUMIN\source\repos\WebFontClient_Application\bin\Debug\netcoreapp3.1\WebFontClient.Grpc.deps.json
+C:\Users\LUMIN\source\repos\WebFontClient_Application\bin\Debug\netcoreapp3.1\WebFontClient.Grpc.dll
+C:\Users\LUMIN\source\repos\WebFontClient_Application\bin\Debug\netcoreapp3.1\WebFontClient.Grpc.pdb
+C:\Users\LUMIN\source\repos\WebFontClient_Application\obj\Debug\netcoreapp3.1\WebFontClient.Grpc.AssemblyInfoInputs.cache
+C:\Users\LUMIN\source\repos\WebFontClient_Application\obj\Debug\netcoreapp3.1\WebFontClient.Grpc.AssemblyInfo.cs
+C:\Users\LUMIN\source\repos\WebFontClient_Application\obj\Debug\netcoreapp3.1\WebFontClient.Grpc.dll
+C:\Users\LUMIN\source\repos\WebFontClient_Application\obj\Debug\netcoreapp3.1\WebFontClient.Grpc.pdb
+C:\Users\LUMIN\source\repos\WebFontClient_Application\obj\Debug\netcoreapp3.1\WebFontClient.Grpc.csprojAssemblyReference.cache
+M:\个人项目\WebFontClient_NetCore\WebFontClient_Application\bin\Debug\netcoreapp3.1\WebFontClient.Grpc.deps.json
+M:\个人项目\WebFontClient_NetCore\WebFontClient_Application\bin\Debug\netcoreapp3.1\WebFontClient.Grpc.dll
+M:\个人项目\WebFontClient_NetCore\WebFontClient_Application\bin\Debug\netcoreapp3.1\WebFontClient.Grpc.pdb
+M:\个人项目\WebFontClient_NetCore\WebFontClient_Application\obj\Debug\netcoreapp3.1\WebFontClient.Grpc.csprojAssemblyReference.cache
+M:\个人项目\WebFontClient_NetCore\WebFontClient_Application\obj\Debug\netcoreapp3.1\WebFontClient.Grpc.AssemblyInfoInputs.cache
+M:\个人项目\WebFontClient_NetCore\WebFontClient_Application\obj\Debug\netcoreapp3.1\WebFontClient.Grpc.AssemblyInfo.cs
+M:\个人项目\WebFontClient_NetCore\WebFontClient_Application\obj\Debug\netcoreapp3.1\WebFontClient.Grpc.dll
+M:\个人项目\WebFontClient_NetCore\WebFontClient_Application\obj\Debug\netcoreapp3.1\WebFontClient.Grpc.pdb

@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "5Pd+0wh/kYFyeAmxyOXAuHmSwCAEYZBkNuIZ0W2Y3pYyO2K3AHutrn5Pz5XiUCVCGkC1zwu9O/rQ3eNhO6qqmQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jamesbing\\Documents\\WeChat Files\\bing694412184\\FileStorage\\File\\2020-04\\WebFontClient_NetCore\\WebFontClient_NetCore\\WebFontClient.SDK\\WebFontClient.SDK.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jamesbing\\.nuget\\packages\\aliyun.oss.sdk.netcore\\2.9.1\\aliyun.oss.sdk.netcore.2.9.1.nupkg.sha512",
+    "C:\\Users\\jamesbing\\.nuget\\packages\\google.protobuf\\3.11.4\\google.protobuf.3.11.4.nupkg.sha512",
+    "C:\\Users\\jamesbing\\.nuget\\packages\\grpc.core.api\\2.27.0\\grpc.core.api.2.27.0.nupkg.sha512",
+    "C:\\Users\\jamesbing\\.nuget\\packages\\grpc.net.client\\2.27.0\\grpc.net.client.2.27.0.nupkg.sha512",
+    "C:\\Users\\jamesbing\\.nuget\\packages\\grpc.net.common\\2.27.0\\grpc.net.common.2.27.0.nupkg.sha512",
+    "C:\\Users\\jamesbing\\.nuget\\packages\\grpc.tools\\2.27.0\\grpc.tools.2.27.0.nupkg.sha512",
+    "C:\\Users\\jamesbing\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.2\\microsoft.extensions.configuration.3.1.2.nupkg.sha512",
+    "C:\\Users\\jamesbing\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.2\\microsoft.extensions.configuration.abstractions.3.1.2.nupkg.sha512",
+    "C:\\Users\\jamesbing\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.2\\microsoft.extensions.configuration.binder.3.1.2.nupkg.sha512",
+    "C:\\Users\\jamesbing\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.2\\microsoft.extensions.dependencyinjection.3.1.2.nupkg.sha512",
+    "C:\\Users\\jamesbing\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.2\\microsoft.extensions.dependencyinjection.abstractions.3.1.2.nupkg.sha512",
+    "C:\\Users\\jamesbing\\.nuget\\packages\\microsoft.extensions.logging\\3.1.2\\microsoft.extensions.logging.3.1.2.nupkg.sha512",
+    "C:\\Users\\jamesbing\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.2\\microsoft.extensions.logging.abstractions.3.1.2.nupkg.sha512",
+    "C:\\Users\\jamesbing\\.nuget\\packages\\microsoft.extensions.options\\3.1.2\\microsoft.extensions.options.3.1.2.nupkg.sha512",
+    "C:\\Users\\jamesbing\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.2\\microsoft.extensions.primitives.3.1.2.nupkg.sha512",
+    "C:\\Users\\jamesbing\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\jamesbing\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.5.1\\system.diagnostics.diagnosticsource.4.5.1.nupkg.sha512",
+    "C:\\Users\\jamesbing\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}
