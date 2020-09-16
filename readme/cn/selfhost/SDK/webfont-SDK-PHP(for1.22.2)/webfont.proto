@@ -1,0 +1,296 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "io.grpc.sdk.webfont";
+option java_outer_classname = "WebfontProto";
+
+package webfontsdk;
+
+
+// The greeting service definition.
+service Greeter {
+	// Sends a greeting
+	rpc SayHello (HelloRequest) returns (HelloReply) {}
+
+    //BuildFont
+    rpc BuildFont(FontBuildRequest) returns (FontBuildBufResult) {}
+
+    //BuildFontForAccessKey
+    rpc BuildFontForAccessKey(FontBuildAccessKeyRequest) returns (FontBuildBufResult) {}
+
+    //MultBuildFont
+    rpc MultBuildFont(MultFontBuildRequest) returns (MultFontBuildBufResult) {}
+
+    //Get my fontlist
+    rpc FontList(FontListRequest) returns (FontListResult){}
+
+    //GetProfile
+    rpc GetProfileWithoutMap(GetProfileWithoutMapRequest) returns (GetProfileWithoutMapResult) {}
+
+
+    //GetUnicodeIndexs
+    //rpc GetUnicodeIndexs(GetUnicodeIndexsRequest) returns (GetUnicodeIndexsResult) {}
+
+    //GetGlyfs Index
+    //rpc GetGlyfsIndex(GetGlyfsIndexRequest) returns (GetGlyfsIndexResult) {}
+
+
+    //GetGlyfs Unicode
+    //rpc GetGlyfsUnicode(GetGlyfsUnicodeRequest) returns (GetGlyfsUnicodeResult) {}
+
+    //GetMultGlyfsUnicode
+    rpc GetMultGlyfsUnicode(GetMultGlyfsUnicodeRequest) returns (GetMultGlyfsUnicodeResult) {}
+
+    //获得厂商列表和字体列表
+    rpc GetFontList(GetFontListRequest) returns (GetFontListReply){}
+     //获得AccessKey
+    rpc GetAccessKeyInfo(GetAccessKeyInfoRequest) returns (AccessKeyInfo) {}
+}
+
+// The request message containing the user's name.
+message HelloRequest {
+  string name = 1;
+}
+
+// The response message containing the greetings
+message HelloReply {
+  string message = 1;
+}
+
+message FontListRequest {
+    string apikey=1;
+}
+
+
+message FontListResult {
+    map<uint32, int64> fonts = 1;
+}
+
+message FontBuildAccessKeyRequest{
+    string apikey=1;
+    string accesskey=2;
+    string text=3;
+    bool need_ttf=4;
+    bool need_eot=5;
+    bool need_woff=6;
+    bool need_woff2=7;
+}
+message FontBuildRequest {
+    string apikey=1;
+    uint32 font_id=2;
+    string text=3;
+    bool need_ttf=4;
+    bool need_eot=5;
+    bool need_woff=6;
+    bool need_woff2=7;
+}
+
+
+
+message MultFontBuildRequest {
+    repeated FontBuildRequest items=1;
+}
+
+message FontBuildBufResult {
+    uint32 font_id =1 ;
+    uint32 font_format_version=2;   //字体格式版本
+    uint64 font_checksum=3; //字体的唯一辨识编码
+    string name_en = 4;
+    bytes bytes_ttf=5;
+    bytes bytes_eot=6;
+    bytes bytes_woff=7;
+    bytes bytes_woff2=8;
+}
+
+message MultFontBuildBufResult {
+    repeated FontBuildBufResult items = 1;
+}
+
+
+//GetProfile for html5
+message GetProfileWithoutMapRequest {
+    string apikey=1;
+    uint32 font_id=2;
+}
+
+message GetProfileWithoutMapResult {
+    uint32 font_id=1;
+    bytes data=2;
+}
+
+/*
+message GetUnicodeIndexsRequest {
+    string apikey=1;
+    uint32 font_id=2;
+    uint32 unicode=3;
+}
+
+message GetUnicodeIndexsResult {
+    repeated uint32 indexs=1;
+}
+
+
+message GetGlyfsIndexRequest {
+    string apikey=1;
+    uint32 font_id=2;
+    uint32 index=3;
+}
+
+
+
+message GetGlyfsUnicodeRequest {
+    string apikey=1;
+    uint32 font_id=2;
+    uint32 unicode=3;
+}
+
+
+
+message GetGlyfsIndexResult {
+    uint32 index=1;
+    bytes data=2;
+}
+
+message GetGlyfsUnicodeResult {
+    uint32 unicode=1;
+    repeated GetGlyfsIndexResult datas = 2;
+}
+*/
+
+message GetMultGlyfsUnicodeRequest {
+    string apikey=1;
+    uint32 font_id=2;
+    uint32 font_checksum=3;
+    repeated uint32 unicodes=4;
+    bool append_zero=5;    //追加0
+}
+
+message indexs {
+    repeated uint32 items=2;
+}
+
+message GetMultGlyfsUnicodeResult {
+    map<uint32,indexs> unicodes=1;
+    map<uint32,bytes> indexs=3;
+}
+
+
+enum Language{
+    UNKNOW=0;
+    English=1;
+    Simplified_Chinese=2;
+    Traditional_Chinese=3;
+    Japanese=4;
+    Korean=5;
+}
+
+//获得厂商列表
+message GetFontMakerListRequest{
+}
+
+//厂商列表
+message GetFontMakerListReply{
+    repeated FontMaker items =1;
+}
+
+
+message GetFontListRequest{
+    uint32 maker_id=1;  //通过厂商来搜索   ，0则忽略此项
+}
+
+message GetFontListReply{
+    repeated FontMetaInfo items=2;  //字体列表
+}
+
+//字体厂商
+message FontMaker {
+    uint32 maker_id=1;              //厂商编号
+    string url=2;             //厂商网址
+
+    string name_en=3;                  //字体英文名
+    string name_cn=4;                  //字体中文名
+    string name_tw=5;                  //字体繁体名
+    string name_jp=6;                  //字体日文名
+    string name_kr=7;                  //字体韩语名
+
+
+    string intro_en=8;    //英语厂商介绍
+    string intro_cn=9;    //中文介绍
+    string intro_tw=10;    //繁体中文介绍
+    string intro_jp=11;    //日语介绍
+    string intro_kr=12;    //韩语介绍
+}
+
+//字体信息
+message FontMetaInfo {
+    uint32 font_id=1;                   //字体id
+    uint32 maker_id=2;                  //厂商编号
+
+    string name_en=3;                  //字体英文名
+    string name_cn=4;                  //字体中文名
+    string name_tw=5;                  //字体繁体名
+    string name_jp=6;                  //字体日文名
+    string name_kr=7;                  //字体韩语名
+
+
+    string intro_en=8;    //英语介绍
+    string intro_cn=9;    //中文介绍
+    string intro_tw=10;    //繁体中文介绍
+    string intro_jp=11;    //日语介绍
+    string intro_kr=12;    //韩语介绍
+
+    repeated Language lang=13;               //语系列表
+
+    int32 cr_price_month=14;                //版权授权价格：0代表免费，-1代表不允许按月购买
+    int32 cr_price_year=15;                 //版权按年价格：0代表免费，-1代表不允许按年购买，都为-1则无法提供在线购买方式，
+    int32 cr_price_cssdownload=16;          //CSS文件下载价格,按次收费。298元左右,-1代表不允许下载css，0代表免费
+
+    bool cdn_free=17;                       //是否免cdn流量费
+
+    bool cr_buy_on_makersite=18;            //是否可以在厂商官网购买
+    string cr_url_on_makersite=19;          //当前字体在厂商的网址，如果为 "" 则自动使用厂商网址填充
+
+    uint32 service_fee_of_online_month =20;   //通过在线购买的月服务费  0代表免费
+    uint32 service_fee_of_online_year =21;   //通过在线购买的年服务费   0代表免费
+
+    int32 service_fee_of_attorney_month =22;   //通过上传授权书购买的月服务费   -1代表不允许上传授权书  0代表免费
+    int32 service_fee_of_attorney_year =23;   //通过上传授权书购买的年服务费    -1代表不允许上传授权书  0代表免费
+}
+message GetUseRateRequest{
+
+}
+
+message UseRate {
+  uint32 font_id=1;
+  uint32 count=2;
+}
+
+message GetUseRateResult {
+  //repeated UseRate items=1;
+  map<uint32,uint32> items =1;
+}
+
+// GetAccessKeyInfoRequest 获得完整的AccessKey信息(查)
+message GetAccessKeyInfoRequest {
+  string accesskey = 1;
+}
+// CheckAccessKeyRequest 检查用户的字体ID是否存在(查)
+message CheckAccessKeyRequest {
+  uint64 user_uid = 1;
+  uint32 font_id = 2;
+}
+
+//AddAccessKeyRequest 新增一个accesskey(增)
+message MakesureAccessKeyRequest{
+  uint64 user_uid = 1;
+  uint32 font_id = 2;
+}
+
+// 一个完整的AccessInfo
+message AccessKeyInfo {
+  string accesskey = 1;
+  uint64 user_uid = 2;
+  uint32 font_id = 3;
+  int64 add_time= 4;
+  string uuid=5;
+}

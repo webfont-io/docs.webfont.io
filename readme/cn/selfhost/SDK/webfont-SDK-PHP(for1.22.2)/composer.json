@@ -1,0 +1,16 @@
+{
+  "name": "grpc-go-php",
+  "require": {
+    "grpc/grpc": "^v1.3.0",
+    "google/protobuf": "^v3.3.0",
+    "aliyuncs/oss-sdk-php": "~2.3.1"
+  },
+  "autoload":{
+    "psr-4":{
+      "GPBMetadata\\":"gRPC/GPBMetadata/",
+      "Webfontsdk\\":"gRPC/",
+      "source\\":"source/",
+      "source\\model\\":"source/model/"
+    }
+  }
+}
