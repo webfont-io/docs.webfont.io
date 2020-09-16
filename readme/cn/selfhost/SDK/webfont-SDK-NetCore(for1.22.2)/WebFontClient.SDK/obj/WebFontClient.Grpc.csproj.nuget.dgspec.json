@@ -1,0 +1,92 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ctwl\\Desktop\\WebFontClient_NetCore\\WebFontClient_NetCore\\WebFontClient.SDK\\WebFontClient.Grpc.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ctwl\\Desktop\\WebFontClient_NetCore\\WebFontClient_NetCore\\WebFontClient.SDK\\WebFontClient.Grpc.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ctwl\\Desktop\\WebFontClient_NetCore\\WebFontClient_NetCore\\WebFontClient.SDK\\WebFontClient.Grpc.csproj",
+        "projectName": "WebFontClient.Grpc",
+        "projectPath": "C:\\Users\\ctwl\\Desktop\\WebFontClient_NetCore\\WebFontClient_NetCore\\WebFontClient.SDK\\WebFontClient.Grpc.csproj",
+        "packagesPath": "C:\\Users\\ctwl\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ctwl\\Desktop\\WebFontClient_NetCore\\WebFontClient_NetCore\\WebFontClient.SDK\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ctwl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.ct108.net:8086/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Aliyun.OSS.SDK.NetCore": {
+              "target": "Package",
+              "version": "[2.9.1, )"
+            },
+            "Google.Protobuf": {
+              "target": "Package",
+              "version": "[3.11.4, )"
+            },
+            "Grpc.Auth": {
+              "target": "Package",
+              "version": "[2.27.0, )"
+            },
+            "Grpc.Net.Client": {
+              "target": "Package",
+              "version": "[2.27.0, )"
+            },
+            "Grpc.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.27.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

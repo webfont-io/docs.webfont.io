@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/xujf/Downloads/webfont-SDK-NetCore(for1.22.1)/WebFontClient_NetCore/WebFontClient.SDK/WebFontClient.SDK.csproj": {}
+  },
+  "projects": {
+    "/home/xujf/Downloads/webfont-SDK-NetCore(for1.22.1)/WebFontClient_NetCore/WebFontClient.SDK/WebFontClient.SDK.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/xujf/Downloads/webfont-SDK-NetCore(for1.22.1)/WebFontClient_NetCore/WebFontClient.SDK/WebFontClient.SDK.csproj",
+        "projectName": "WebFontClient.SDK",
+        "projectPath": "/home/xujf/Downloads/webfont-SDK-NetCore(for1.22.1)/WebFontClient_NetCore/WebFontClient.SDK/WebFontClient.SDK.csproj",
+        "packagesPath": "/home/xujf/.nuget/packages/",
+        "outputPath": "/home/xujf/Downloads/webfont-SDK-NetCore(for1.22.1)/WebFontClient_NetCore/WebFontClient.SDK/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/xujf/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Aliyun.OSS.SDK.NetCore": {
+              "target": "Package",
+              "version": "[2.9.1, )"
+            },
+            "Google.Protobuf": {
+              "target": "Package",
+              "version": "[3.11.4, )"
+            },
+            "Grpc.Net.Client": {
+              "target": "Package",
+              "version": "[2.27.0, )"
+            },
+            "Grpc.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.27.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.0.1, 3.0.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.103/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

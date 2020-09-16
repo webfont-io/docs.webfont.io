@@ -1,0 +1,2 @@
+C:\Users\LUMIN\source\repos\WebFontClient_Application\obj\Debug\netcoreapp3.1\WebFontClient_Application.AssemblyInfoInputs.cache
+C:\Users\LUMIN\source\repos\WebFontClient_Application\obj\Debug\netcoreapp3.1\WebFontClient_Application.AssemblyInfo.cs
