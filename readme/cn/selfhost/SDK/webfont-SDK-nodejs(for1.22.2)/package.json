@@ -1,0 +1,19 @@
+{
+  "name": "webfont",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "grpc-tools": "^1.8.1"
+  },
+  "dependencies": {
+    "ali-oss": "^6.6.0",
+    "google-protobuf": "^3.11.4",
+    "grpc": "^1.24.2"
+  }
+}
