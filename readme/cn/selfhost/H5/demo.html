@@ -1,0 +1,158 @@
+﻿
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+
+    <script type="text/javascript">
+        window.ENV_WEBFONT_SERVERURL = "47.96.228.172:8181";// host service IP
+    </script>
+    <script type="text/javascript" src="h5js.new.min.js"></script>
+    <!--<script type="text/javascript" src="youziku.client.js"></script>-->
+
+    <script type="text/javascript">
+        var Dassesskey = "";
+        function show(accesskey) {
+
+            var data = {
+                Tags: []
+            };
+            data.Tags.push({ AccessKey: accesskey, Content: document.getElementById("Text1").value, Tag: '#Text1' });
+            Dassesskey = accesskey;
+            $youzikuClient.getBatchFontFace(data, function (result) {
+
+
+                var length = result.FontfaceList.length;
+                for (var i = 0; i < length; i++) {
+                    console.log("Tag：" + result.FontfaceList[i].Tag);
+                    console.log("AccessKey：" + result.FontfaceList[i].AccessKey);
+                    console.log("FontFamily：" + result.FontfaceList[i].FontFamily);
+                    console.log("ErrorMessage：" + result.FontfaceList[i].ErrorMessage);
+                    console.log("Code：" + result.FontfaceList[i].Code);
+                }
+
+            });
+        }
+        function inputchange(obj) {
+
+
+            var starttime = new Date().valueOf();
+            console.log("start=%d", starttime);
+            var data = {
+                Tags: []
+            };
+            data.Tags.push({ AccessKey: Dassesskey, Content: obj.value });
+
+            $youzikuClient.getBatchFontFace(data, function (result) {
+
+
+                var length = result.FontfaceList.length;
+                for (var i = 0; i < length; i++) {
+                    console.log("Tag：" + result.FontfaceList[i].Tag);
+                    console.log("AccessKey：" + result.FontfaceList[i].AccessKey);
+                    console.log("FontFamily：" + result.FontfaceList[i].FontFamily);
+                    console.log("ErrorMessage：" + result.FontfaceList[i].ErrorMessage);
+                    console.log("Code：" + result.FontfaceList[i].Code);
+                }
+
+            });
+            var endtime = new Date().valueOf();
+            console.log("endtime=%d diff=%d", endtime, endtime - starttime);
+
+        }
+
+        window.onload = function () {
+            // show('d1c3cf7740c7456fbfbf4916e3856010');
+            show('8fdd2109c6ce4e4382531e86d90236d9');
+        }
+    </script>
+
+</head>
+<body>
+    <textarea name="Text1" id="Text1" rows="10" cols="20" oninput="inputchange(this)" style="width: 1000px; height: 300px; font-size: 40px; ">请</textarea>
+    <p></p>
+    <!--<br />-->
+    <!--<br />-->
+    <button onclick="show('8fdd2109c6ce4e4382531e86d90236d9')">金梅火材棒美工字</button>
+    <button onclick="show('bfe9bd70f3984016aa32ce595dd2ee97')">金梅粗铁塔字范例</button>
+    <button onclick="show('0c8adb6f418141fcb7c01e84ced86632')">王汉宗叠圆体繁</button>
+    <button onclick="show('a8ad7662bc80452d83ee337723d2cd49')">超研泽叠圆体</button>
+    <button onclick="show('b5a814ee493d49b7b80779437501b067')">超世纪粗叠圆</button>
+    
+    <button onclick="show('e8a80039c17643c0864bf5a77df48379')">金梅重叠黑国际码</button>
+    <!--<button onclick="show('e8578c00b4a843a0b168891a38cc44e4')">金梅特黑破布字体</button>-->
+    <!--<button onclick="show('8f8eabfa62ad41d4b6fe3981678280a7')">金梅美眉美工国际码</button>-->
+    <!--<button onclick="show('dada98d00a914651835ff9f0b5d860d2')">金梅浪漫空心国际码</button>-->
+    <!--<button onclick="show('cd15919a4ff0478885cd34214beb6c55')">金梅浪漫反白国际码</button>-->
+    <!--<br></br>-->
+    <!--<button onclick="show('20b78c644de8460fb61692407becab10')">金梅勘流斜影国际码</button>-->
+    <!--<button onclick="show('02660ac8988f42378f8a877e6856cd08')">金梅方角叠黑字体</button>-->
+    <!--<button onclick="show('f7eaa4649ba849c6bd1c4b6c99368dd0')">经典圆叠黑</button>-->
+    <!--<button onclick="show('94d7173021674d85a37246af1eca55ea')">经典叠圆体繁</button>-->
+    <!--<button onclick="show('21fa31777a3442a6864b4f2d485872eb')">汉鼎繁叠圆</button>-->
+  <!---->
+    <!--<button onclick="show('f3826584bea444b39f49f2527519226a')">汉鼎繁叠黑</button>-->
+    <!--<button onclick="show('d27ab39168da4a6fa7cf23674aac04d4')">金梅特黑流水字体</button>-->
+    <!--<button onclick="show('85d9b586e7ae4e54b82a96d901a90fcc')">金梅毛隶九宫实心</button>-->
+    <!--<button onclick="show('acd6960b4f744f3aa088a13efa8860f5')">金梅毛行九宫空心</button>-->
+    <!--<button onclick="show('92e678a66f0f429bb47a6b0319448e73')">金梅疊黑空心国际码</button>-->
+    <!--<br></br>-->
+    <!--<button onclick="show('89891054f40449428c497cce51a98f98')">金梅疊圓空心国际码</button>-->
+    <!--<button onclick="show('37654d7c13e640788c66e14caed6eeda')">金梅双头圆字范例</button>-->
+    <!--<button onclick="show('1d71aecca0ea48a996e6ef3999593f67')">金梅双箭美工字体</button>-->
+    <!--<button onclick="show('36afdbda3c04461a94b15bee3a1b4abe')">金梅新双尖头字形</button>-->
+    <!--<button onclick="show('d65060c683ba4d19858fe237ac64671b')">金梅新水管字范例</button>-->
+   <!---->
+    <!--<button onclick="show('ad28b518c93b49d6a138b4b2aed3ffff')">金梅新彩带字范例</button>-->
+    <!--<button onclick="show('41764c29c23742daa888faf7ad7a526b')">金梅新圆体字范例</button>-->
+    <!--<button onclick="show('dfe495bc19744c2fbf8a40da6c1014f7')">金梅小帅哥美工字</button>-->
+    <!--<button onclick="show('ab1f5a00d2a44c99af13d92c19f98852')">金梅特黑龟壳字形</button>-->
+    <!--<button onclick="show('174653d95c8a424e9c9a5cf6197c3b3d')">金梅特黑双翅字形</button>-->
+    <!--<br></br>-->
+    <!--<button onclick="show('2f70085e9a374602b7ab1ca342643dfc')">金梅特黑眼镜字形</button>-->
+    <!--<button onclick="show('2ee5d8f2752a4dcabda88327f936082c')">金梅特黑眼泪字形</button>-->
+    <!--<button onclick="show('d1c3cf7740c7456fbfbf4916e3856010')">金梅特黑蟹脚字形</button>-->
+    <!--<button onclick="show('a9ae5641cdff4a1a82879afbb14bdb99')">金梅特黑吐舌头字</button>-->
+    <!--<button onclick="show('2f5ba1cf19d442d9bd91ef467161c726')">金梅特黑手指字形</button>-->
+    <!---->
+    <!--<button onclick="show('b9e49cca6e0749819ab3433eb3d1b057')">金梅特黑玫瑰字形</button>-->
+    <!--<button onclick="show('6564b99396974361a1a8ce007d0d3cdf')">金梅特黑翘腿字形</button>-->
+    <!--<button onclick="show('800644f624d04d2185e8b28b4af1808d')">金梅特黑雷电字形</button>-->
+    <!--<button onclick="show('f2d4fb2529384ae5a38684930272f60b')">金梅特黑大小眼字</button>-->
+    <!--<button onclick="show('2033dd53fcfd449da78465cc4a702cd7')">金梅特黑斑马线字</button>-->
+    <!--<br></br>-->
+    <!--<button onclick="show('ab27c8a6b4364ddabbf7295a1c5cc119')">金梅特黑独眼字形</button>-->
+    <!--<button onclick="show('f0d6262f327d425081083fc4dfabff6f')">金梅四方圆宽体字</button>-->
+    <!--<button onclick="show('e24d1d69fb4f49b0a18da2a1d9cfa2f5')">金梅水彩墨笔字体</button>-->
+    <!--<button onclick="show('bee87eee575f479e85b2723d8a7ca63e')">金梅青箭美工字体</button>-->
+    <!--<button onclick="show('4ccf75bf3b814d77a99a8d4ff90338c9')">金梅美工铁鎚字形</button>-->
+    <!---->
+    <!--<button onclick="show('17b4d8a2dd344b7aba35ef4a7ad13af0')">金梅美工忠狗字形</button>-->
+    <!--<button onclick="show('a1e9756c5c8b429c8591c997bf4a8c4a')">金梅美工香肠字形</button>-->
+    <!--<button onclick="show('81d5c679801942da8beaf92460e7a8d0')">金梅美工空心字形</button>-->
+    <!--<button onclick="show('9dd3c8f8d0e74538afedfb45500ddd08')">金梅落叶美工字体</button>-->
+    <!--<button onclick="show('ee0fb7f2ca8340c1820367e06b80ccfb')">金梅翘鬍子字范例</button>-->
+    <!--<br></br>-->
+    <!--<button onclick="show('50707733166d44f3b44c1e421bfa0a81')">金梅浪漫闪电字形</button>-->
+    <!--<button onclick="show('7724e084dcf646e08b0a8bfad17c07b4')">金梅勘流立体留影</button>-->
+    <!--<button onclick="show('7108c89ce7e04bb49ca81e6a33bec4ac')">金梅勘流浮体白字</button>-->
+    <!--<button onclick="show('af815f7977d146e9a3c711383a7a6240')">金梅火柴棒字范例</button>-->
+    <!--<button onclick="show('1c7a61b541b043b6a9420f770c4ad88b')">金梅黑框浮体字形</button>-->
+  <!---->
+    <!--<button onclick="show('b66b5e617dc247ff8d44c5a0b088df95')">金梅海报刚笔字体</button>-->
+    <!--<button onclick="show('ce76ffa5a8a4456b8f3795dae7471ee6')">金梅勾明字体范例</button>-->
+    <!--<button onclick="show('0972ac24f3c54260b536bfd1346ea48c')">金梅独特字体范例</button>-->
+    <!--<button onclick="show('1668a9a105464fc6abda0b7c76898a23')">金梅树枝美工字体</button>-->
+    <!--<button onclick="show('af8e2f9ee01b45e882a81760052deb54')">金梅创意字体范例</button>-->
+    <!--<br></br>-->
+    <!--<button onclick="show('f897af71b95c40b090c74efac8f9aa7a')">金梅个性字体范例</button>-->
+    <!--<button onclick="show('b55e26462778488986e74a8be979ee89')">超研泽超黑体繁</button>-->
+    <!--<button onclick="show('91e9f16fdd194c7492d638eb4f14d38a')">中国龙中粗黑</button>-->
+    <!--<button onclick="show('025a06b357ac4fef9c71ee7cbe3e9314')">中国龙新仿宋</button>-->
+    <!--<br></br><br></br>-->
+
+    <!--<span id="div1" style=" font-size:150px"></span>-->
+</body>
+</html>
