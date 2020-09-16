@@ -30,12 +30,12 @@
 ```
 ## SDK文档- 我们提供以下几种语言的SDK
 
-- [Webfont-Api-SDK-Java](SDK/webfont-SDK-java(for1.22.2)/README.md "Java")
-- [Webfont-Api-SDK-NetCore](SDK/webfont-SDK-NetCore(for1.22.2)/README.md "NetCore")
-- [Webfont-Api-SDK-NetFramework](SDK/webfont-SDK-NetFramework(for1.22.2)/README.md "NetFramework")
-- [Webfont-Api-SDK-NodeJs](SDK/webfont-SDK-nodejs(for1.22.2)/README.md "NodeJs")
-- [Webfont-Api-SDK-PHP](SDK/webfont-SDK-PHP(for1.22.2)/README.md "PHP")
-- [Webfont-Api-SDK-Python](SDK/webfont-SDK-Python(for1.22.2)/README.md "Python")
+- [Webfont-Api-SDK-Java](SDK/webfont-SDK-java(for1.22.2) "Java")
+- [Webfont-Api-SDK-NetCore](SDK/webfont-SDK-NetCore(for1.22.2) "NetCore")
+- [Webfont-Api-SDK-NetFramework](SDK/webfont-SDK-NetFramework(for1.22.2) "NetFramework")
+- [Webfont-Api-SDK-NodeJs](SDK/webfont-SDK-nodejs(for1.22.2) "NodeJs")
+- [Webfont-Api-SDK-PHP](SDK/webfont-SDK-PHP(for1.22.2) "PHP")
+- [Webfont-Api-SDK-Python](SDK/webfont-SDK-Python(for1.22.2) "Python")
 ```sh
 SDK是针对不同语言（目前支持.Net、Java、PHP、NodeJs、Python），将子集化服务API的调用方法打包封装，制作成方便用户调用的工具包。
 SDK的代码开源，用户可以直接将其加入自己的项目中，加入项目后，用户需要根据自身情况修改源码中的存储方法，使API返回的字体文件能够保存在用户自己的存储空间里。
