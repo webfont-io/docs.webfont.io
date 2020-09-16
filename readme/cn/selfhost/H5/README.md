@@ -36,7 +36,7 @@ h5js.new.min.js
 #### 修改host地址
 window.ENV_WEBFONT_SERVERURL的值即是指向H5服务器的地址，将这个ip地址替换为部署在本地的服务器地址+H5服务的端口号却可。
 ```javascript
-window.ENV_WEBFONT_SERVERURL = "47.96.228.172:8181";// host service IP
+window.ENV_WEBFONT_SERVERURL = "127.0.0.1:8181";// host service IP
 ```
 
 
