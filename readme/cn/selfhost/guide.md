@@ -30,7 +30,7 @@
 ```
 ## SDK文档- 我们提供以下几种语言的SDK
 
-- [Webfont-Api-SDK-Java](sdk-java.md "Java")
+- [Webfont-Api-SDK-Java](SDK/webfont-SDK-java(for1.22.2)/README.md "Java")
 - [Webfont-Api-SDK-NetCore](sdk-netcore.md "NetCore")
 - [Webfont-Api-SDK-NetFramework](sdk-netframework.md "NetFramework")
 - [Webfont-Api-SDK-NodeJs](sdk-nodejs.md "NodeJs")
