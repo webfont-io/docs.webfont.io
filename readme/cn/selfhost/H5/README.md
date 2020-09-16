@@ -4,8 +4,8 @@
 对于H5在线编辑工具，要调用一套特殊字体，往往需要把整套字体事先加载到客户端。不仅影响用户体验，同时也带来巨大的流量成本。
 应用此插件调用中文字体，初始化时，无需加载任何字体数据，使页面得以极速展开。插件会自动根据用户输入的内容快速生成临时的字体，存放于客户端缓存中。即时响应，轻盈灵巧。
 
-### 部署
-#### docker-compose方式部署H5服务
+# 2、 部署
+### 通过docker-compose方式部署H5服务
 ```
 version: '2'
 services:
@@ -43,7 +43,7 @@ window.ENV_WEBFONT_SERVERURL = "127.0.0.1:8181";// host service IP
 
 
 
-# 2、Sample
+# 3、Sample
 ### getFontFace()
 ``` javascript
 var entity={
