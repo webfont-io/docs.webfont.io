@@ -16,16 +16,10 @@ _address：host(部署webfont服务的服务器IP)+port(部署webfont服务的�
 ```
 
 
-
-# 2、下载/部署
-
-- [下载SDK](https://github.com/youziku/youziku-sdk-java/raw/master/sdk%E4%B8%8B%E8%BD%BD/youziku.java.sdk.jars.zip "java") <br />
+   
 
 
-    
-
-
-# 3、Sample
+# 2、Sample
 
 ``` C#
 SDK.WebFontClient client = new SDK.WebFontClient();           
