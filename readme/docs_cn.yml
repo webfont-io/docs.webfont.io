@@ -23,18 +23,6 @@ Documents:
       - "快速入门":
         Link: "https://github.com/webfont-io/docs.webfont.io/blob/master/readme/cn/Get-Started/quick-start-guide.md"
         Slug: quick-start-guide
-      - "下载WebFont":
-        Link: "https://github.com/webfont-io/docs.webfont.io/blob/master/readme/cn/Get-Started/CSS.md"
-        Slug: CSS
-      - "智能JS插件":
-        Link: "https://github.com/webfont-io/docs.webfont.io/blob/master/readme/cn/Get-Started/fastjs.md"
-        Slug: fastjs
-      - "H5即时插件":
-        Link: "https://github.com/webfont-io/docs.webfont.io/blob/master/readme/cn/Get-Started/H5.md"
-        Slug: H5
-      - "后端SDK":
-        Link: "https://github.com/webfont-io/docs.webfont.io/blob/master/readme/cn/Get-Started/SDK.md"
-        Slug: SDK
   
   
   - "独立部署":
@@ -77,3 +65,10 @@ Documents:
         - "Python":
           Link: "https://github.com/webfont-io/docs.webfont.io/tree/master/readme/cn/selfhost/SDK/webfont-SDK-Python(for1.22.2)"
           Slug: sdk-python
+          
+          
+   - "H5解决方案":  
+        - "H5解决方案":
+          Link: "https://github.com/webfont-io/docs.webfont.io/tree/master/readme/cn/selfhost/H5"
+          Slug: H5解决方案
+   
