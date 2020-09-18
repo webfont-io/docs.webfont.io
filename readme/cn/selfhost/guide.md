@@ -1,4 +1,4 @@
-## WebFont
+## WebFont简介
 
 #### WebFont是什么
 - WebFont是CSS3中的一个模块，主要是通过@font-face语句把自定义的特殊字体嵌入到网页中，使页面文字可以摆脱安全字体的限制显示出任意字体的效果。
