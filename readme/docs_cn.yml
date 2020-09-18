@@ -35,23 +35,7 @@ Documents:
       - "后端SDK":
         Link: "https://github.com/webfont-io/docs.webfont.io/blob/master/readme/cn/Get-Started/SDK.md"
         Slug: SDK
- 
-  - "SDK":
-        - "SDK指南":
-          Link: "https://github.com/webfont-io/docs.webfont.io/blob/master/readme/cn/sdk/guide.md"
-          Slug: sdk-guide
-        - ".Net":
-          Link: "https://github.com/webfont-io/docs.webfont.io/blob/master/readme/cn/sdk/DotNet.md"
-          Slug: sdk-dotNet
-        - "nodejs":
-          Link: "https://github.com/webfont-io/docs.webfont.io/blob/master/readme/cn/sdk/nodejs.md"
-          Slug: sdk-nodejs
-        - "java":
-          Link: "https://github.com/webfont-io/docs.webfont.io/blob/master/readme/cn/sdk/java.md"
-          Slug: sdk-java
-        - "PHP":
-          Link: "https://github.com/webfont-io/docs.webfont.io/blob/master/readme/cn/sdk/php.md"
-          Slug: sdk-php
+  
   
   - "独立部署":
         - "安装指南":
@@ -72,3 +56,24 @@ Documents:
         - "Windows":
           Link: "https://github.com/webfont-io/docs.webfont.io/blob/master/readme/cn/selfhost/windows.md"
           Slug: self-host-windows
+          
+          
+  - "SDK":    
+        - ".Net":
+          Link: "https://github.com/webfont-io/docs.webfont.io/tree/master/readme/cn/selfhost/SDK/webfont-SDK-NetFramework(for1.22.2)"
+          Slug: sdk-NetFramework
+        - ".Net Core":
+          Link: "https://github.com/webfont-io/docs.webfont.io/tree/master/readme/cn/selfhost/SDK/webfont-SDK-NetCore(for1.22.2)"
+          Slug: sdk-NetCore
+        - "nodejs":
+          Link: "https://github.com/webfont-io/docs.webfont.io/tree/master/readme/cn/selfhost/SDK/webfont-SDK-nodejs(for1.22.2)"
+          Slug: sdk-nodejs
+        - "java":
+          Link: "https://github.com/webfont-io/docs.webfont.io/tree/master/readme/cn/selfhost/SDK/webfont-SDK-java(for1.22.2)"
+          Slug: sdk-java
+        - "PHP":
+          Link: "https://github.com/webfont-io/docs.webfont.io/tree/master/readme/cn/selfhost/SDK/webfont-SDK-PHP(for1.22.2)"
+          Slug: sdk-php
+        - "Python":
+          Link: "https://github.com/webfont-io/docs.webfont.io/tree/master/readme/cn/selfhost/SDK/webfont-SDK-Python(for1.22.2)"
+          Slug: sdk-python
