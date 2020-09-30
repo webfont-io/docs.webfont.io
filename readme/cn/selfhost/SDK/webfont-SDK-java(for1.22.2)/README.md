@@ -1,19 +1,23 @@
-# 1、介绍
+# 1、Synopsis
 
-### SDK适用语言
-该SDK适用于在Java项目中调用已在本地部署完成的字体服务的API。将该SDK加入到项目中后，程序将通过SDK实现与本地部署好的子集化服务进行交互，生成需要的子集字体和可以直接应用的WebFont代码。
+### Java SDK
+This SDK is suitable for Java projects, you can use it to call subsetting services. After adding it to the project, your program will use it to talk to the locallhost deployed subsetting services and produce subset fonts and @font-face code.
 
-### 配置
-#### 文件存储
-SDK中内置的上传存储空间的代码是OSS的上传代码。可以根据自身的情况（使用的存储空间类型）替换或重写该方法（uploadOss()方法）。
-替换或重写时须注意该方法必须传入文件二进制流（byte[]）和文件名，返回文件的完整存储地址（SDK需要使用该地址来构建@font-face语句）。
+### Configure
+#### The code to save the file
+he source code of the SDK provides the code for storing files. It is the uploadoss() function in the WebFontClient.cs, by default, it saves the files to the storage device of Alibaba Cloud OSS,you can replace or rewrite it to save the file to the storage device you actually use.
 
-#### ApiKey和服务器地址
-在SDK中的WebFontClient.java文件中，将变量apiKey，host ，port的值根据自身情况替换为实际的值了可。
+The rules to replace or rewrite:
+ - It can receive two parameters: file binary and file name;
+ - It can save the file binary to the storage device with the file name;
+ - It can return the url of the file binary on the storage device(The SDK will use it to assemble the @font-face code)
+ 
+#### The variables
+Open the WebFontClient.java File to change the values of apikey, host and port variables.
 ``` sh
-apiKey：apiKey必须与配置文件(docker-compose.yml或config.yml)里的WEBFONT_APIKEY相匹配，两者必须一致才能调用成功。
-host：host是部署webfont服务的服务器IP。
-port：port是部署webfont服务的服务器的端口号。
+apiKey：The value must be the same as the WEBFONT_APIKEY in the config file(docker-compose.yml or config.yml).
+host：The value is the IP of the subsetting service .
+port：The value is the port number of the subsetting service.
 ```
 
 
@@ -23,10 +27,10 @@ port：port是部署webfont服务的服务器的端口号。
 ``` java
     WebFontClient client = new WebFontClient();   
     WebFontFace result = client.getFontFace(new FontFaceParam("XXXXXXXXXXXXXXXXXXXXXXXXXX","中文test", "#id1","aaa/bbb/ccc"));
-    //FontFaceParam构造函数的第1个参数：accessKey参数是需要生成子集字体的字体ID，必填参数；
-    //FontFaceParam构造函数的第2个参数：content参数是需要生成子集字体的内容文本，必填参数；
-    //FontFaceParam构造函数的第3个参数：Tag参数是选择器代码(select)，如果填写Tag参数，则返回的@font-face语句会带有将webfont应用到选择器中的代码，选填参数；
-    //FontFaceParam构造函数的第4个参数：URL参数是自定义文件地址，如果填写URL参数，则SDK会按URL指定的地址来保存生成的字体文件(URL参数在不同请求中必须唯一，不唯一则会导致生成的文件相互覆盖)，如果不填写，则系统会在指定文件夹下自动创建，选填参数。
+    //The first parameter of the constructor is "accessKey",it is the FontID,required;
+    //The second parameter of the constructor is "content",It is the content text,required;
+    //The third parameter of the constructor is "Tag",It's the selector code,Optional;
+    //The fourth argument of the constructor is "URL",It's the Custom address,Optional.
     String jsonStr = result.toJson();
     System.out.println(jsonStr);
 ```
