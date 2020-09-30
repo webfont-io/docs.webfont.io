@@ -1,6 +1,6 @@
 # 1、Synopsis
 
-### Net Core SDK
+### Net Framework SDK
 This SDK is suitable for Net Framework projects, you can use it to call subsetting services. After adding it to the project, your program will use it to talk to the locallhost deployed subsetting services and produce subset fonts and @font-face code.
 
 ### Configure
