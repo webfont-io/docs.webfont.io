@@ -39,7 +39,7 @@ npm install ali-oss
     //The first parameter is "accessKey",it is the FontID,required;
     //The second parameter is "content",It is the content text,required;
     //The third parameter is "tag",It's the selector code,Optional;
-    //The fourth argument is "url",It's the Custom address,Optional.
+    //The fourth pargument is "url",It's the Custom address,Optional.
     String jsonStr = result.toJson();
     System.out.println(jsonStr);
       webFontClient.getFontFace({accessKey:'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx', content:'内容文字', tag:'#id1', url:''}, function(err, webFontInfo) {
