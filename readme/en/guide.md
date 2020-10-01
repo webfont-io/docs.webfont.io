@@ -40,12 +40,12 @@ Please choose the appropriate deployment method according to your situation.
 ```
 ## SDK documentation - The following languages are supported
 
-- [Webfont-Api-SDK-Java](SDK/webfont-SDK-java(for1.22.2) "Java")
-- [Webfont-Api-SDK-NetCore](SDK/webfont-SDK-NetCore(for1.22.2) "NetCore")
-- [Webfont-Api-SDK-NetFramework](SDK/webfont-SDK-NetFramework(for1.22.2) "NetFramework")
-- [Webfont-Api-SDK-NodeJs](SDK/webfont-SDK-nodejs(for1.22.2) "NodeJs")
-- [Webfont-Api-SDK-PHP](SDK/webfont-SDK-PHP(for1.22.2) "PHP")
-- [Webfont-Api-SDK-Python](SDK/webfont-SDK-Python(for1.22.2) "Python")
+- [Webfont-Api-SDK-Java](../cn/selfhost/SDK/webfont-SDK-java(for1.22.2)/README_EN.md "Java")
+- [Webfont-Api-SDK-NetCore](../cn/selfhost/SDK/webfont-SDK-NetCore(for1.22.2)/README_EN.md "NetCore")
+- [Webfont-Api-SDK-NetFramework](../cn/selfhost/SDK/webfont-SDK-NetFramework(for1.22.2)/README_EN.md "NetFramework")
+- [Webfont-Api-SDK-NodeJs](../cn/selfhost/SDK/webfont-SDK-nodejs(for1.22.2)/README_EN.md "NodeJs")
+- [Webfont-Api-SDK-PHP](../cn/selfhost/SDK/webfont-SDK-PHP(for1.22.2)/README_EN.md "PHP")
+- [Webfont-Api-SDK-Python](../cn/selfhost/SDK/webfont-SDK-Python(for1.22.2)/README_EN.md "Python")
 ```sh
 SDK is an easy-to-use toolkit that encapsulates the calling methods of subsetting services for different languages
 SDK is open source. You can modify it or add it to your project;
