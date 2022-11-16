@@ -13,7 +13,7 @@
         <grpc.version>1.23.0</grpc.version><!-- CURRENT_GRPC_VERSION -->
         <protobuf.version>3.9.0</protobuf.version>
         <protoc.version>3.9.0</protoc.version>
-        <jackjson.version>2.9.9</jackjson.version>
+        <jackjson.version>2.12.7.1</jackjson.version>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
